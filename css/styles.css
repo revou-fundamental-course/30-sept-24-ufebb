@@ -1,0 +1,45 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.container {
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+input[type="number"], input[type="text"] {
+    width: 200px;
+    height: 40px;
+    margin: 10px 0;
+    border: 2px solid #d3d3d3;
+    border-radius: 5px;
+    text-align: center;
+}
+
+button {
+    background-color: #ff69b4; /* pink */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin: 5px;
+}
+
+button:hover {
+    background-color: #db7093; /* darker pink */
+}
+
+.result, .calculation {
+    background-color: #9370db; /* purple */
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
